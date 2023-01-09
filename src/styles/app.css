@@ -1,0 +1,112 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: lightblue;
+}
+
+/* .container {
+  background-color: #f5eaf5;
+} */
+/* nav {
+  border-bottom: 1px solid #0d6efd;
+} */
+
+.navbar {
+  justify-content: center;
+}
+
+.nav {
+  /* border-bottom: 1px solid #0d6efd; */
+  border-radius: 10px;
+  background-color: white;
+}
+
+.nav .nav-link {
+  color: gray;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  color: black;
+  font-weight: bolder;
+}
+
+.nav-button:focus {
+  background-color: black;
+}
+
+.flow {
+  text-align: center;
+  background-color: #84ffff;
+}
+
+.below-flow {
+  text-align: center;
+  background-color: #00e5ff !important;
+}
+
+.below-flow-update {
+  text-align: center;
+  background-color: #00e5ff !important;
+}
+
+.delete {
+  text-align: center;
+  font-weight: bold;
+  background-color: red;
+}
+
+.home-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.home-div span {
+  font-size: 75px;
+  font-weight: bolder;
+  padding-bottom: 7rem;
+}
+
+.home-div img {
+  width: 40em;
+  height: auto;
+}
+
+.icons:hover {
+  cursor: pointer;
+}
+
+.isActive {
+  background-color: #0D6EFD !important;
+  color: white !important;
+  border: 1px solid white;
+}
+
+.prev-next-btn {
+  background-color: #0D6EFD !important;
+  color: white !important;
+}
+
+.page-numbers {
+  background-color: rgb(184, 181, 181);
+}
+
+.disable {
+  pointer-events: none;
+  opacity: 0.65;
+}
+
+.number-btn {
+  height: 40px;
+  width: 45px;
+}
