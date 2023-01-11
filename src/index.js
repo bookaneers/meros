@@ -7,13 +7,15 @@ import Router from './router';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/app.css';
 
-import { Provider } from 'react-redux'; // import Provider to work with the Store
+// import component and library to support store
+import { Provider } from 'react-redux'; // import Provider to work with the store
 import { store } from './store' //import store to the index of the App and
 // make it accessible (wrap) to all the components
 
+// basic setup to create the root element
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>
-    <Router />
+    <Router/>
   </Provider>
 );
